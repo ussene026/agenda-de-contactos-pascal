@@ -59,7 +59,7 @@ BEGIN
 		writeln('===================================================');
 		writeln;
 		writeln;
-		IF ( Pesquisar <> '' ) THEN
+		IF ( Pesquisar <> '' ) THEN 
 		BEGIN
 			FOR j := 1 TO 10 DO
 			BEGIN
@@ -139,7 +139,6 @@ BEGIN
 					Registo[j].nome		:= '';
 					Registo[j].numero	:= '';
 					Registo[j].categoria		:= '';
-					
 					writeln('||---------------------- Contacto eliminado!...');
 					writeln;
 					readln;
